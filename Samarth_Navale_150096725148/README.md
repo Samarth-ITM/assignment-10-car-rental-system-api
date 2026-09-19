@@ -27,45 +27,6 @@ A production-ready **Car Rental & Vehicle Fleet Management API** utilizing **Sup
 
 ---
 
-## 📁 Project Folder Structure
-
-```text
-📂 Assignment10/
-├── 📄 render.yaml
-├── 📄 vercel.json
-├── 📄 Assignment 10.txt
-├── 📄 README.md
-└── 📂 Samarth_Navale_150096725148/
-    ├── 📄 server.js
-    ├── 📄 package.json
-    ├── 📄 .env & .env.example
-    ├── 📄 .gitignore
-    ├── 📄 render.yaml & vercel.json
-    ├── 📄 README.md
-    ├── 📂 config/
-    │   ├── 📄 supabase.js
-    │   ├── 📄 store.js
-    │   └── 📄 swagger.js
-    ├── 📂 middleware/
-    │   ├── 📄 auth.js
-    │   ├── 📄 logger.js
-    │   └── 📄 errorHandler.js
-    ├── 📂 controllers/
-    │   ├── 📄 authController.js
-    │   ├── 📄 vehicleController.js
-    │   └── 📄 rentalController.js
-    ├── 📂 routes/
-    │   ├── 📄 authRoutes.js
-    │   ├── 📄 vehicleRoutes.js
-    │   └── 📄 rentalRoutes.js
-    └── 📂 docs/
-        ├── 📄 swagger.yaml
-        └── 📂 postman/
-            └── 📄 CarRentalAPI.postman_collection.json
-```
-
----
-
 ## 🛠️ Tech Stack & Dependencies
 
 - **Runtime:** Node.js
@@ -91,7 +52,6 @@ JWT_SECRET=supersecretkey123
 ## 🧪 Testing
 
 ```bash
-cd Samarth_Navale_150096725148
 npm install
 npm test
 ```
